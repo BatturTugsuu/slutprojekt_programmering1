@@ -5,7 +5,7 @@ from tkinter import ttk
 from tkinter import messagebox
 from tkinter import simpledialog
 #om du vill kolla hela json output from den här request kopiera den här linken och klistra in i webbläsaren och sök : https://api.openweathermap.org/data/2.5/weather?appid=af9726a0d34381fc92a3c86967e28656&q=huddinge&units=metric
-api_key = "af9726a0d34381fc92a3c86967e28656"
+api_key = "[write your own api key]"
 def proceed():
     city=cit.get()
     if city=='':
